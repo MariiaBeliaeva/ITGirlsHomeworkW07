@@ -1,0 +1,145 @@
+.body {
+    background-color: #FCEFE4;
+}
+
+.menu {
+    height: 7vh;
+    display: grid;
+    grid-template-columns: 5% 2fr 5% 5% 5%;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 754px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.headercontent {
+    display: grid;
+    justify-content: end;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    align-items: center;
+}
+
+.button {
+    background-color: #D7537A;
+    height: 74px;
+    width: 275px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.main {
+    background-color: #FCEFE4;
+}
+
+.discount {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+    justify-items: center;
+    }
+
+.bouqet1 {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button1 {
+    background-color: #D7537A;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.whyus {
+    height: 1745px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    }
+
+.reason1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: #FFFFFF;
+    border-radius: 25%;
+    padding: 15%;
+    }
+
+.winter {
+    grid-row: 1/3;
+    grid-column: 3/5;
+}
+
+.sweet {
+    grid-row: 3/5;
+    grid-column: 1/3;
+}
+
+.reason2 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    background-color: #FFFFFF;
+    border-radius: 25%;
+    padding: 15%;
+}
+
+.reason3 {
+    grid-row: 6/7;
+    grid-column: 2/3;
+    background-color: #FFFFFF;
+    border-radius: 25%;
+    padding: 15%;
+}
+
+.peonies {
+    grid-row: 5/7;
+    grid-column: 3/5;
+}
+
+.delivery {
+    font-size: 2em;
+    text-align: justify;
+    padding: 5% 20%;
+    background-image: url(./removebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 751px;
+}
+
+.contactus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.input {
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.bouqet {
+    border-radius: 10px;
+}
+
+footer {
+    display: grid;
+    background-color: #FFFFFF;
+    justify-items: center;
+}
